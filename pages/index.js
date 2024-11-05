@@ -31,8 +31,6 @@ export const App = () => {
     getData()
   }, [triggerFetch]);
 
-  console.log(weatherData);
-
   const changeSystem = () =>
     unitSystem == "metric"
       ? setUnitSystem("imperial")

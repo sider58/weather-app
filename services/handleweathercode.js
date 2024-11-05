@@ -79,6 +79,5 @@ export const handleWeatherCode = (weatherData, weatherCode) => {
         return [description, icon];
     }
 
-    // Optionnel : Valeur par défaut si le code météo ne correspond à aucun cas
     return ["Condition météorologique inconnue", "unknown"];
 };
